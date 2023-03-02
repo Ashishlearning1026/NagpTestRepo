@@ -15,7 +15,7 @@ public class BaseClass {
 
     protected static SoftAssert softAssert;
     protected static ExtentReports extent = new ExtentReports();
-    protected static ExtentSparkReporter spark = new ExtentSparkReporter("ExtentReport.html");
+    protected static ExtentSparkReporter spark = new ExtentSparkReporter("testoutput/ExtentReport.html");
     protected static ExtentTest test;
 
     @BeforeSuite(alwaysRun = true)
